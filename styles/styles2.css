@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.head {
+    background-color: #D9D9D9;
+    color: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.head div {
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
+    height: 60px;
+}
+.head h2{
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.search:hover{
+    background-color: #aaaaaa;
+    border-radius: 15px;
+}
+.input:hover{
+    background-color: #aaaaaa;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+}
+section {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+textarea{
+    width: 100%;
+}
+select{
+    width: 100%;
+    padding: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    align-self: flex-end;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+.btn{
+    background-color: #a3abb1;
+    width: 200px;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    
+}
+
+.btn2{
+    border-radius: 15px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    background-color: #099b18;
+    cursor: pointer;
+    border: none;
+}
+.tombol{
+    display: flex;
+    margin-left: auto;
+}
+.tombol2{
+    display: flex;
+    margin-right: auto;
+}
+.btn:hover{
+    background-color: #737679;
+}
+.btn2:hover{
+    background-color: #0e7c19;
+}
